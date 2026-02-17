@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/final_logo"
+        android:label="@string/helpmate"
+        android:roundIcon="@drawable/final_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelpMateF"
+        tools:targetApi="31">
+        <activity
+            android:name=".activity_tutorial"
+            android:exported="false" />
+        <activity
+            android:name=".demeo"
+            android:exported="false" />
+        <activity
+            android:name=".activity_cash_on_service"
+            android:exported="false" />
+        <activity
+            android:name=".activity_womens_salon"
+            android:exported="false" />
+        <activity
+            android:name=".Sofa_Cleaning_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".AC_Repairing_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Womens_Salon_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Mens_Salon_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".AC_Cleaning_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Electrician_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Plumber_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Cleaning_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Renovation_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Interior_Design_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".In_Salon_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".In_Electrician_Plumber_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".In_Home_Cleaning_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".In_AC_Service_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".in_Architech_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ServiceItem"
+            android:exported="false" />
+        <activity
+            android:name=".populer"
+            android:exported="false" />
+        <activity
+            android:name=".UserHomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserRegistrationactivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChoosePathActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

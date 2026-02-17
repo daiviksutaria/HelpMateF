@@ -1,0 +1,17 @@
+<resources>
+    <string name="helpmate" translatable="false">HelpMate</string>
+    <string name="app_name">HelpMateF</string>
+    <string name="welcome_to_helpmate">¡Bienvenido a HelpMate!</string>
+    <string name="your_daily_solution">¡Tu solución diaria!</string>
+    <string name="choose_a_path">Elige un camino</string>
+    <string name="user_path">Ruta de usuario</string>
+    <string name="user">Usuario</string>
+    <string name="are_you_looking_for_help_or_offer_skills">¿Estás buscando ayuda o quieres ofrecer tus habilidades?</string>
+    <string name="looking_for_help"><![CDATA[Estoy buscando ayuda]]></string>
+    <string name="offer_my_skills">Quiero ofrecer mis habilidades</string>
+    <string name="welcome_back">Bienvenido de nuevo</string>
+    <string name="log_in">Iniciar sesión</string>
+    <string name="email_address">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+</resources>

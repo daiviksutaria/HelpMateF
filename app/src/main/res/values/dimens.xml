@@ -1,0 +1,25 @@
+<resources>
+    <dimen name="logo_width">280dp</dimen>
+    <dimen name="logo_height">256dp</dimen>
+    <dimen name="daily_solution_margin_top">16dp</dimen>
+    <dimen name="daily_solution_text_size">28sp</dimen>
+    <dimen name="softtech_width">200dp</dimen>
+    <dimen name="softtech_height">90dp</dimen>
+    <dimen name="softtech_margin_bottom">34dp</dimen>
+
+    <dimen name="choose_path_title_margin_top">48dp</dimen>
+    <dimen name="choose_path_title_text_size">28sp</dimen>
+    <dimen name="path_description_margin_top">24dp</dimen>
+    <dimen name="path_description_margin_horizontal">24dp</dimen>
+    <dimen name="path_description_text_size">18sp</dimen>
+
+    <dimen name="button_margin_horizontal">24dp</dimen>
+    <dimen name="help_button_margin_top">32dp</dimen>
+    <dimen name="skills_button_margin_top">16dp</dimen>
+
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="button_elevation">4dp</dimen>
+    <dimen name="button_corner_radius">8dp</dimen>
+    <dimen name="button_stroke_width">1dp</dimen>
+</resources>

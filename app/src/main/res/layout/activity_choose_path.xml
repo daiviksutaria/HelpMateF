@@ -1,0 +1,136 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hover_color"
+    tools:context=".ChoosePathActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+        app:layout_constraintBottom_toTopOf="@+id/choosePathTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/black" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imagelogo"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/rounded_grid_image_home_fragement"
+            android:clipToOutline="true"
+            android:src="@drawable/final_logo" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/helpmate"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/choosePathTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/choose_a_path"
+        android:textColor="@color/primary_text_color"
+        android:textSize="@dimen/choose_path_title_text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pathDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/path_description_margin_horizontal"
+        android:layout_marginTop="@dimen/path_description_margin_top"
+        android:layout_marginEnd="@dimen/path_description_margin_horizontal"
+        android:text="@string/are_you_looking_for_help_or_do_you_want_to_offer_your_skills"
+        android:textAlignment="center"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/path_description_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choosePathTitle" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/HelpButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/button_margin_horizontal"
+        android:layout_marginTop="@dimen/help_button_margin_top"
+        android:layout_marginEnd="@dimen/button_margin_horizontal"
+        android:backgroundTint="@color/button_background_color"
+        android:padding="@dimen/button_padding"
+        android:text="@string/i_am_looking_for_help"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_text_color"
+        android:textSize="@dimen/button_text_size"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/button_corner_radius"
+        app:elevation="@dimen/button_elevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pathDescription"
+        app:strokeColor="@color/button_stroke_color"
+        app:strokeWidth="1dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/SkillsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/button_margin_horizontal"
+        android:layout_marginTop="@dimen/skills_button_margin_top"
+        android:layout_marginEnd="@dimen/button_margin_horizontal"
+        android:backgroundTint="@color/button_background_color"
+        android:padding="@dimen/button_padding"
+        android:text="@string/i_want_to_offer_my_kills"
+        android:textAllCaps="false"
+        android:textColor="@color/primary_text_color"
+        android:textSize="@dimen/button_text_size"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/button_corner_radius"
+        app:elevation="@dimen/button_elevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HelpButton"
+        app:strokeColor="@color/button_stroke_color"
+        app:strokeWidth="@dimen/button_stroke_width" />
+
+    <Button
+        android:id="@+id/changeLangButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="17dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/change_languge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SkillsButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home"
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/house"/>
+
+    <item
+        android:title="@string/cart"
+        android:id="@+id/cartFragment"
+        android:icon="@drawable/services"/>
+
+
+    <item
+        android:id="@+id/bookingFragment"
+        android:icon="@drawable/booking"
+        android:title="Booking" />
+
+
+    <item android:title="@string/account"
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/user"/>
+</menu>
